@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<br>
+	<br>
+	<center>
+		<font size = "10">Login</font>
+	</center>
+	<br>
+	<br>
+	<br>
+	<form action="/check" method="post">
+		<center>
+	 		<font size="5"> 
+				Email:	<input type="text" name="email" placeholder="xyz@pqr.com">
+				<br>
+				<br>
+	 			Password: <input type="password" name="password" placeholder="********">
+	 			<br>
+	 			<br>
+	 			<button type="submit" >Submit</button>
+			</font>
+		</center>
+	</form>
+<br>
+<br>
+<center>
+	<font>
+		Not Registered!<a href="/register">Click here!</a>
+	<font><br><br>
+{{message}}	
+</center>
+</body>
+</html>

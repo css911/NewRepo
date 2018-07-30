@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="/static/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="/static/vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="/static/vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<center>
+		<font size = "5">Register</font>
+			<form action = "/enterregister" method="post">
+				<font size="3">
+					Name:<input type="text" name="name"><br>
+					Email:<input type = "email" name = "email"><br>
+					Password:<input type="Password" name="Password"><br>
+					PhoneNumber:<input type="text" name="PhoneNumber"><br>
+					Type:<input type = "radio" name = "pro" value  = "student"> Student 
+            		<input type="radio" name="pro" value="Librarian">Librarian<br>
+            		<br>
+            		<input type = "submit" value = "submit">
+				</font>
+			</form>		
+	</center>
+
+</body>
+</html>
